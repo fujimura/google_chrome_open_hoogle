@@ -1,0 +1,13 @@
+{
+  "name": "Open Hoogle",
+  "description": "Open hoogle with context menu, with selected text",
+  "version": "0.1",
+  "permissions": ["contextMenus", "tabs"],
+  "background": {
+    "scripts": ["open_hoogle.js"]
+  },
+  "icons" : {
+    "16" : "hoogle16.png"
+  },
+  "manifest_version": 2
+}
